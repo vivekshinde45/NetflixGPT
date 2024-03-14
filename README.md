@@ -1,3 +1,30 @@
+# Netflix-GPT
+
+# Creating react app
+
+- npx create-react-app netflix-gpt
+
+# Install Tailwind CSS
+
+- npm install -D tailwindcss
+- npx tailwindcss init
+
+# Features
+
+- Login / Sign up
+  - Sign In / Sign Up Form
+  - redirect to /browse page
+- /browse page (after authentication)
+  - Header
+  - Main Movie
+    - Trailer run in background
+    - Title & Description
+    - MovieSuggestions
+      - MovieLists \* N (Vertical scrollable)
+- /netflix-gpt page
+  - Search Bar
+  - Movie Suggestions
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,30 +95,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# Netflix-GPT
-
-# Creating react app
-
-- npx create-react-app netflix-gpt
-
-# Install Tailwind CSS
-
-- npm install -D tailwindcss
-- npx tailwindcss init
-
-# Features
-
-- Login / Sign up
-  - Sign In / Sign Up Form
-  - redirect to /browse page
-- /browse page (after authentication)
-  - Header
-  - Main Movie
-    - Trailer run in background
-    - Title & Description
-    - MovieSuggestions
-      - MovieLists \* N (Vertical scrollable)
-- /netflix-gpt page
-  - Search Bar
-  - Movie Suggestions
